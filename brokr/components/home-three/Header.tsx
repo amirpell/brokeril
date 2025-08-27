@@ -75,117 +75,7 @@ const Header = () => {
           <Link href="/" className="d-flex align-items-center">
             <Image priority src={logo} alt="site logo" />
           </Link>
-          <OutsideClickHandler onOutsideClick={() => setMegaMenu(false)}>
-            <div className="brokers-dropdown">
-       
-              <div className={`best-brokers-mega-menu ${megaMenu ? "active" : ""}`}>
-                <div className="container-fluid mx-auto">
-                  <div className="row justify-content-between">
-                    <div className="category col-lg-8 col-xl-9">
-                      <h5 className="fw-semibold mb-4 text-capitalize">Best brokers by categories</h5>
-                      <div className="row g-2 g-md-3 gx-xl-4">
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat1} alt="" />
-                            <p className="m-text fw-medium">Best Stock Brokers</p>
-                          </Link>
-                        </div>
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat2} alt="" />
-                            <p className="m-text fw-medium">Best Forex Brokers</p>
-                          </Link>
-                        </div>
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat3} alt="" />
-                            <p className="m-text fw-medium">Best CFD Brokers</p>
-                          </Link>
-                        </div>
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat4} alt="" />
-                            <p className="m-text fw-medium">Best Brokers for Beginners</p>
-                          </Link>
-                        </div>
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat5} alt="" />
-                            <p className="m-text fw-medium">Best Stock Trading Apps</p>
-                          </Link>
-                        </div>
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat6} alt="" />
-                            <p className="m-text fw-medium">Best discount brokers</p>
-                          </Link>
-                        </div>
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat7} alt="" />
-                            <p className="m-text fw-medium">Best Crypto Brokers</p>
-                          </Link>
-                        </div>
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat8} alt="" />
-                            <p className="m-text fw-medium">Best Futures Brokers</p>
-                          </Link>
-                        </div>
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat9} alt="" />
-                            <p className="m-text fw-medium">Best Brokers for bonds</p>
-                          </Link>
-                        </div>
-                        <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat10} alt="" />
-                            <p className="m-text fw-medium">Best low spread forex brokers</p>
-                          </Link>
-                        </div>
-                        <div className="col-12">
-                          <a className="d-flex align-items-center fw-semibold text-primary gap-2" href="#">
-                            BrokR Awards 2024 <i className="ph ph-arrow-right"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="country col-lg-4 col-xl-3">
-                      <h5 className="fw-semibold mb-4 text-capitalize">country recommendation</h5>
-                      <div className="country-list">
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
-                          <Image src={usa} alt="" />
-                          <p>United States</p>
-                        </Link>
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
-                          <Image src={uk} alt="" />
-                          <p>United Kingdom</p>
-                        </Link>
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
-                          <Image src={australia} alt="" />
-                          <p>Autralia</p>
-                        </Link>
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
-                          <Image src={uae} alt="" />
-                          <p>United Arab Emirates</p>
-                        </Link>
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
-                          <Image src={germany} alt="" />
-                          <p>Germany</p>
-                        </Link>
-                      </div>
-                      <div className="mt-4">
-                        <a className="d-flex align-items-center fw-semibold text-primary gap-2" href="#">
-                          More Countries <i className="ph ph-arrow-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </OutsideClickHandler>
+        
         </div>
         <div className="d-flex menu-dropdown-container">
           <div className="pe-sm-3">
@@ -196,6 +86,19 @@ const Header = () => {
               <button onClick={() => setMobileMenu(false)} className="close-btn bg-transparent border-0 position-absolute">
                 <i className="ph ph-x"></i>
               </button>
+                 <li className="dropdown-item">
+                <button>
+      <Link   href="/">בית</Link>
+
+                </button>
+                
+              </li>
+              <li className="broker-review dropdown-item">
+                <button className="broker-review-dropdown-btn">
+  <Link className="menu-link blue" href="/blog">
+המגזין                          </Link>                </button>
+           
+              </li>
                <li className="dropdown-item">
                 <button>
                   כלים <i className="ph ph-caret-down"></i>
@@ -230,7 +133,7 @@ const Header = () => {
                 </button>
                 <ul className="dropdown-list">
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/find-my-broker">פלטפורמות מסחר ישראליות</Link>
+                    <Link href="/best-brokers-one">פלטפורמות מסחר בישראל</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
                     <Link href="/compare-brokers">Compare brokers</Link>
@@ -252,20 +155,8 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-          <li className="broker-review dropdown-item">
-                <button className="broker-review-dropdown-btn">
-  <Link className="menu-link blue" href="/blog">
-המגזין                          </Link>                </button>
+          
            
-              </li>
-              <li className="dropdown-item">
-                <button>
-      <Link   href="/">בית</Link>
-
-                </button>
-                
-              </li>
-              
              
             </ul>
             <div onClick={() => setMobileMenu(false)} className="menu-overlay d-xl-none"></div>

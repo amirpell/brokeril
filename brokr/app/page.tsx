@@ -1,38 +1,49 @@
-import BestBrokers from "@/components/home-one/BestBrokers";
-import Clients from "@/components/home-one/Clients";
-import DownloadApps from "@/components/home-one/DownloadApps";
-import Expertise from "@/components/home-one/Expertise";
-import Faq from "@/components/home-one/Faq";
-import FilterBrokers from "@/components/home-one/FilterBrokers";
-import Footer from "@/components/home-one/Footer";
-import GetAlert from "@/components/home-one/GetAlert";
-import Header from "@/components/home-one/Header";
-import Hero from "@/components/home-one/Hero";
-import JoinDiscussion from "@/components/home-one/JoinDiscussion";
-import MatchBroker from "@/components/home-one/MatchBroker";
-import Trustpilot from "@/components/home-one/Trustpilot";
-const formatString = (str: string) => {
-  return str.split(" ").join("-").toLowerCase();
-};
-console.log(formatString("OANDA"));
-export default function Home() {
+import CompareBrokers from "@/components/home-three/CompareBrokers";
+import CustomerSuccess from "@/components/home-three/CustomerSuccess";
+import Footer from "@/components/home-three/Footer";
+import Header from "@/components/home-three/Header";
+import Hero from "@/components/home-three/Hero";
+import SearchTool from "@/components/home-three/SearchTool";
+import SuccessCommit from "@/components/home-three/SuccessCommit";
+import TopRankedBroker from "@/components/home-three/TopRankedBroker";
+import TopReasons from "@/components/home-three/TopReasons";
+import TrustedPartner from "@/components/home-three/TrustedPartner";
+import React from "react";
+
+const HomeThree = () => {
   return (
     <>
-      <Header />
-      <main>
+      <div className="hero-three-wrapper">
+        <Header />
         <Hero />
-        <Trustpilot />
-        <BestBrokers />
-        <FilterBrokers />
-        <MatchBroker />
-        <Expertise />
-        <GetAlert />
-        <Clients />
-        <DownloadApps />
-        <JoinDiscussion />
-        <Faq />
+      </div>
+      <main>
+        {/* <!-- broker search tools --> */}
+        <SearchTool />
+
+        {/* <!-- success commitment --> */}
+        <SuccessCommit />
+
+        {/* <!-- Top Ranked Brokers --> */}
+        <TopRankedBroker />
+
+        {/* <!-- top reasons for choosing BrokR --> */}
+        {/* <TopReasons />*/} 
+
+        {/* <!-- compare brokers --> */}
+     {/*   <CompareBrokers />*/}
+
+        {/* <!-- customer success --> <CustomerSuccess />*/}
+        
+
+        {/* <!-- trusted partner -->        <TrustedPartner /> */}
+
+
+        {/* <!-- footer --> */}
+        <Footer />
       </main>
-      <Footer />
     </>
   );
-}
+};
+
+export default HomeThree;

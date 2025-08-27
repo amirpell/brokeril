@@ -25,7 +25,7 @@ const SearchTool = () => {
               <Image src={tool1} className="mb-4" alt="" />
               <div>
                 <h5 className="fw-semibold mb-3">פלטפורמות מסחר בישראל</h5>
-                <p className="text-n500 s-text max-two-line">Explore and browse top broker lists categorized for easy comparison.</p>
+                <p className="text-n500 s-text max-two-line">כאן תמצאו את כל פלטפורמות המסחר הישראליות במקום אחד</p>
               </div>
             </Link>
           </div>
@@ -34,7 +34,7 @@ const SearchTool = () => {
               <Image src={tool2} className="mb-4" alt="" />
               <div>
                 <h5 className="fw-semibold mb-3">פלטפורמות מסחר בחו"ל</h5>
-                <p className="text-n500 s-text max-two-line">Save hours of research with our in-depth comparison Tool.</p>
+                <p className="text-n500 s-text max-two-line">כאן תמצאו את כל פלטפורמות המסחר הבינלאומיות במקום אחד.</p>
               </div>
             </Link>
           </div>
@@ -42,8 +42,8 @@ const SearchTool = () => {
             <Link href="/broker-review/oanda" data-aos="zoom-in" data-aos-delay="200" className="tool-box two d-flex align-items-center gap-3 gap-xxl-4 align-items-start">
               <Image src={tool3} className="mb-4" alt="" />
               <div>
-                <h5 className="fw-semibold mb-3">מסחר במטבעות קריפטו</h5>
-                <p className="text-n500 s-text max-two-line">Choose a Broker on your own from more than 100 reviews.</p>
+                <h5 className="fw-semibold mb-3">מסחר קריפטו</h5>
+                <p className="text-n500 s-text max-two-line">כאן תמצאו את כל הפלטפורמות והכלים למסחר בקריפטו במקום אחד.</p>
               </div>
             </Link>
           </div>
@@ -52,7 +52,7 @@ const SearchTool = () => {
               <Image src={tool4} className="mb-4" alt="" />
               <div>
                 <h5 className="fw-semibold mb-3">ניתוח טכני וכלים למסחר</h5>
-                <p className="text-n500 s-text max-two-line">Check if a broker can be trusted and it’s not a scam.</p>
+                <p className="text-n500 s-text max-two-line">כאן תמצאו את כל כלי הניתוח הטכני והמסחר במקום אחד.</p>
               </div>
             </Link>
           </div>
@@ -61,7 +61,7 @@ const SearchTool = () => {
               <Image src={tool5} className="mb-4" alt="" />
               <div>
                 <h5 className="fw-semibold mb-3">קורסים למסחר והשקעות</h5>
-                <p className="text-n500 s-text max-two-line">Create a profile to search and find your favorite Brokers.</p>
+                <p className="text-n500 s-text max-two-line">כאן תמצאו את כל הקורסים למסחר והשקעות במקום אחד.</p>
               </div>
             </Link>
           </div>
@@ -70,7 +70,7 @@ const SearchTool = () => {
               <Image src={tool6} className="mb-4" alt="" />
               <div>
                 <h5 className="fw-semibold mb-3">מסחר אוטומטי (אלגו-טריידינג)</h5>
-                <p className="text-n500 s-text max-two-line">Discuss your questions and concerns with experts and fellow traders.</p>
+                <p className="text-n500 s-text max-two-line">כאן תמצאו את כל הפלטפורמות והכלים למסחר אוטומטי במקום אחד.</p>
               </div>
             </Link>
           </div>
@@ -79,7 +79,7 @@ const SearchTool = () => {
               <Image src={tool7} className="mb-4" alt="" />
               <div>
                 <h5 className="fw-semibold mb-3">כלים לניהול סיכונים</h5>
-                <p className="text-n500 s-text max-two-line">Find out what assets fit your goals and which brokers offer them.</p>
+                <p className="text-n500 s-text max-two-line">כאן תמצאו את כל הכלים לניהול סיכונים במסחר במקום אחד.</p>
               </div>
             </Link>
           </div>
@@ -88,7 +88,7 @@ const SearchTool = () => {
               <Image src={tool8} className="mb-4" alt="" />
               <div>
                 <h5 className="fw-semibold mb-3">בינה מלאכותית</h5>
-                <p className="text-n500 s-text max-two-line">Calculate the fee of an FX trade at Different brokers.</p>
+                <p className="text-n500 s-text max-two-line">כאן תמצאו את כל הכלים והשירותים המשתמשים בבינה מלאכותית למסחר.</p>
               </div>
             </Link>
           </div>

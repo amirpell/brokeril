@@ -54,43 +54,42 @@ const SuccessCommit = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="fade-in" className="col-lg-6">
-              <h2 className="display-4 text-white fw-semibold mb-3 mb-lg-4">Our Commitment to Your Success</h2>
-              <p className="l-text text-white mb-40">Welcome to BrokR! We are dedicated to revolutionizing the way you find and compare brokers. Our mission is to provide you.</p>
+            <div data-aos="fade-in" className="col-lg-6" style={{direction:"rtl"}}>
+              <h2 className="display-4 text-white fw-semibold mb-3 mb-lg-4">ברוכים הבאים למגזין שלנו</h2>
+              <p className="l-text text-white mb-40">כאן תמצאו כתבות, ניתוחים ועדכונים חמים מעולמות שוק ההון, מסחר בבורסה וקריפטו.
+אנחנו מביאים לכם תוכן איכותי, נגיש ועדכני – כדי שתוכלו לקבל החלטות חכמות יותר ולהישאר תמיד צעד אחד לפני כולם.</p>
               <div className="mb-40">
                 <ul className="nav nav-tabs mb-3 d-flex gap-3" id="myTab" role="tablist">
                   <li className="nav-item" role="presentation">
                     <button className="nav-link secondary active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-                      Our Mission
+                     המשימה שלנו
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
                     <button className="nav-link secondary" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
-                      Our Vission
+                     החזון שלנו
                     </button>
                   </li>
                 </ul>
                 <div className="tab-content" id="myTabContent">
                   <div className="tab-pane fade text-white show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabIndex={0}>
-                    At BrokR, our mision is to become the leading resource for investors seeking trustworthy and detailed broker comparisons.
-                  </div>
+להנגיש מידע מדויק, אמין ומקצועי על פלטפורמות מסחר, שווקי הון וקריפטו, כדי לסייע למשקיעים לקבל החלטות מושכלות ובטוחות יותר.                  </div>
                   <div className="tab-pane fade text-white" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabIndex={0}>
-                    At BrokR, our vision is to become the leading resource for investors seeking trustworthy and detailed broker comparisons. .
-                  </div>
+להפוך למקור המרכזי והאמין ביותר להשוואת פלטפורמות מסחר וידע פיננסי – עבור כל מי שמעוניין להבין, ללמוד ולהרוויח בצורה חכמה מעולם ההשקעות החדש.                  </div>
                 </div>
               </div>
               <ul className="d-flex flex-column gap-2">
                 <li className="d-flex align-items-center gap-2">
                   <Image src={check} alt="" />
-                  <p className="l-text text-white fw-medium">Comprehensive Comparisons</p>
+                  <p className="l-text text-white fw-medium">השוואות מקיפות</p>
                 </li>
                 <li className="d-flex align-items-center gap-2">
                   <Image src={check} alt="" />
-                  <p className="l-text text-white fw-medium">Unbiased Reviews</p>
+                  <p className="l-text text-white fw-medium">ביקורות אובייקטיביות</p>
                 </li>
                 <li className="d-flex align-items-center gap-2">
                   <Image src={check} alt="" />
-                  <p className="l-text text-white fw-medium">Community Support</p>
+                  <p className="l-text text-white fw-medium">תוכן פיננסי מותאם לישראלים</p>
                 </li>
               </ul>
             </div>
