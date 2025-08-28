@@ -61,7 +61,7 @@ export const brokers = [
     aosDelay: 500,
   },
   {
-    title: "Ally Invest",
+    title: "פלוס 500",
     image: invest8,
     rating: "4.9",
     users: "234,548",
